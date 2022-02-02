@@ -1,18 +1,30 @@
 body {
   font-family: monospace;
+  margin: 2rem;
+  font-size: 14px;
 }
 
 a {
-  color: blue;
+  color: #2b8e6e;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 3px 0;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
     color: white;
-  }
-
-  a {
-    color: olivedrab;
   }
 }
