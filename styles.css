@@ -8,12 +8,18 @@ a {
   color: #2b8e6e;
 }
 
+a:hover {
+  color: #59d7ae;
+}
+
 h1 {
   font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 1.15rem;
+  margin-bottom: 0.5rem;
 }
 
 ul li a {
@@ -27,4 +33,10 @@ ul li a {
     background-color: black;
     color: white;
   }
+}
+
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
